@@ -10,7 +10,7 @@ function App() {
          <Grid size ={{ xs:12, md: 12}}> <HeaderUI></HeaderUI> </Grid>
 
          {/* Alertas */}
-         <Grid size ={{ xs:12, md: 12}} container justifyContent="right" alignItems="center">
+         <Grid size ={{ xs:12, md: 12}} container sx={{justifyContent:"right", alignItems:"center"}}>
             <AlertUI description="No se preveen lluvias"/>
          </Grid>
          
